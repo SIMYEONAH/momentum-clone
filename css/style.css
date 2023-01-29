@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lobster&family=Rajdhani:wght@400;600&family=Roboto+Slab:wght@400;600&display=swap');
+
+* {
+  font-family: 'Bakbak One', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  background-color: #778beb;
+  ;
+}
+
+#weather-container {
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 0%;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+button:hover {
+  transform: scale(1.4);
+}
+
+ul {
+  height: 40%;
+  overflow: auto;
+}
