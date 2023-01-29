@@ -21,6 +21,10 @@ body {
   justify-content: center;
 }
 
+h2{
+  font-size: 60px;
+}
+
 #weather-container {
   position: absolute;
   text-align: center;
